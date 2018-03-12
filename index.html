@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./observer.js"></script>
+    <script src="./main.js"></script>
+    <style>
+        div{padding: 1em;}
+    </style>
+</head>
+<body>
+    <div>
+        <label for="input-subject">Subject</label>
+        <input type="text" id="input-subject" class="js-subject" name="input-subject">
+        <button type="button" id="btn-subject" class="js-subject">Send</button>
+    </div>
+    <div>
+        <label for="js-subject">Observer One: </label>
+        <input type="text" class="js-input-one" name="input-one">
+    </div>
+    <div>
+        <label for="js-subject">Observer Two: </label>
+        <input type="text" class="js-input-two" name="input-two">
+    </div>
+    <textarea name="observer-area" id="observer-area" cols="50" rows="10"></textarea>
+</body>
+</html>
